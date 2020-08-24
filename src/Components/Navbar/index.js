@@ -22,7 +22,7 @@ class Navbar extends Component {
 
   render() {
     return (
-        <nav className="menuBar">
+        <nav className="menuBar shadow-2">
         	<div className="logo">
         		<a href="">logo</a>
         	</div>

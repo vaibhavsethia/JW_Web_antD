@@ -4,7 +4,11 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    return <Navbar />;
+    return (
+      <div>
+        <Navbar />
+      </div>
+    );
   }
 }
 
