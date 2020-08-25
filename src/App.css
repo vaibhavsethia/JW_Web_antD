@@ -7,7 +7,7 @@
   box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
 }
 .logo {
-  width: 150px;
+  width: 200px;
   float: left;
 }
 .logo a {
@@ -17,11 +17,14 @@
   text-transform: capitalize;
 }
 .menuCon {
-  width: calc(100% - 150px);
+  width: calc(100% - 200px);
   float: left;
 }
 .menuCon .ant-menu-item {
   padding: 0px 5px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  vertical-align: bottom;
 }
 .menuCon .ant-menu-submenu-title {
   padding: 10px 20px;
