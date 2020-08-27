@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Menu } from 'antd';
 
+import "./styles.css";
+
 const SubMenu = Menu.SubMenu;
 const MenuItemGroup = Menu.ItemGroup;
 
