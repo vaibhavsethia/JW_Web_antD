@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
-import LeftMenu from './LeftMenu'
-import RightMenu from './RightMenu'
 import { Drawer, Button } from 'antd';
+
+// import LeftMenu from './LeftMenu'
+import RightMenu from './RightMenu'
+
 import Logo from '../../Images/Logo/Logo_1.png'
+import './styles.css'
+
 class Navbar extends Component {
 	state = {
     current: 'mail',
@@ -24,7 +28,7 @@ class Navbar extends Component {
     return (
         <nav className="menuBar shadow-2">
         	<div className="logo">
-        		<a href=""><img src={Logo}></img></a>
+        		<a href="/"><img alt="Company-Logo" src={Logo}></img></a>
         	</div>
         	<div className="menuCon">
         		{/* <div className="leftMenu">
@@ -37,13 +41,14 @@ class Navbar extends Component {
 		          <span className="barsBtn"></span>
 		        </Button>
 				    <Drawer
+							className="drawer"
 		          title="J Williamson"
 		          placement="right"
 		          closable={false}
 		          onClose={this.onClose}
 		          visible={this.state.visible}
 		        >
-		          <LeftMenu />
+		          {/* <LeftMenu /> */}
 		          <RightMenu />
 		        </Drawer>
 
