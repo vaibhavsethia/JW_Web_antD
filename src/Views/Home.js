@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 import Tech from "../Components/Tech";
 import Hero from "../Components/Hero";
-
 import './styles.css'
 
 export class Home extends Component {
@@ -10,7 +9,7 @@ export class Home extends Component {
     return (
       <div className="section">
         <Hero />
-        {/* <Tech /> */}
+        <Tech />
       </div>
     )
   }

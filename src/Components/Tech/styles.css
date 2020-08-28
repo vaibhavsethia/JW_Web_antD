@@ -1,10 +1,31 @@
-.header{
-  font-family: 'Comfortaa', cursive;
+.header {
+  font-family: 'Noto Serif', serif;
   font-size: 46px;
   color: whitesmoke;
 }
-.tagline{
-  font-family: 'Merriweather', serif;
+.tagline {
+  font-family: "Merriweather", serif;
   font-size: 20px;
   color: whitesmoke;
+}
+.ant-card {
+  background-color: transparent !important; 
+  border: transparent 2px solid !important;
+}
+.card-icon{
+  background-color: #5658DD;
+  width: 64px;
+  height: 64px;
+  font-size: 40px;
+  border-radius: 100%;
+  padding-top: 11px;
+}
+.tech-name{
+  color: white;
+  font-size: 26px;
+}
+.tech-desc{
+  color: #9ca9b3;
+  font-size: 20px;
+  font-weight: 300;
 }
