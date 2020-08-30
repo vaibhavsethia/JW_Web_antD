@@ -41,7 +41,7 @@ class Carousel extends React.Component {
             The Fast Way Use Animation In React
           </TweenOne>
         </Element>
-        <Element prefixCls="banner-user-elem" key="1">
+        <Element prefixCls="banner-user-elem" key="2">
           <BgElement key="bg" className="bg banner-3" />
           <TweenOne
             className="banner-user-title"

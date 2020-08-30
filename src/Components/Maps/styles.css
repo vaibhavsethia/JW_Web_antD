@@ -1,0 +1,28 @@
+.map-image{
+  height: 400px;
+  border-radius: 20px;
+  border-color: slategray;
+  border-style: ridge;
+  border-width: 10px;
+}
+
+.clear{
+  background: transparent;
+  border: none;
+}
+.ant-alert-success {
+  background-color: #448008;
+  border-color: #274b03;
+}
+.ant-alert{
+  color: white;
+}
+.w4{
+  width: 12rem;
+}
+.ml5{
+  margin-left: 8rem;
+}
+.position{
+  align-content: center;
+}
