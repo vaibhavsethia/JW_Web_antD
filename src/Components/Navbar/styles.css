@@ -2,10 +2,9 @@
 
 .menuBar {
   padding: 0 20px;
-  border-bottom: solid 1px #e8e8e8;
+  border-bottom: solid 1px #292929;
   overflow: auto;
-  /* box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2); */
-  /* background-color: coral; */
+  background-color: rgb(56, 55, 55);
 }
 .logo {
   width: 225px;
@@ -14,7 +13,6 @@
 .logo a {
   display: inline-block;
   font-size: 20px;
-  padding: 19px 20px;
   text-transform: capitalize;
 }
 .menuCon {
@@ -36,6 +34,7 @@
 }
 .menuCon .ant-menu-horizontal {
   border-bottom: none;
+  background-color: rgb(56, 55, 55);
 }
 .menuCon .leftMenu {
   float: left;
@@ -55,7 +54,7 @@
   display: block;
   width: 20px;
   height: 2px;
-  background: #1890ff;
+  background: #1FC0BB;
   position: relative;
 }
 .barsBtn:after,
@@ -66,7 +65,7 @@
   top: -6px;
   left: 0;
   height: 2px;
-  background: #1890ff;
+  background: #1FC0BB;
 }
 .barsBtn:after {
   top: auto;
@@ -74,6 +73,12 @@
 }
 .ant-drawer-body {
   padding: 0;
+  background-color: rgb(56, 55, 55) !important;
+  height: 89vh;
+}
+.ant-menu-item{
+  background-color: rgb(56, 55, 55) !important;
+  color: #bebebe !important;
 }
 .ant-drawer-body .ant-menu-horizontal > .ant-menu-item,
 .ant-drawer-body .ant-menu-horizontal > .ant-menu-submenu {
@@ -88,6 +93,30 @@
 }
 .drawer {
   background-blend-mode: darken;
+}
+.ant-btn-primary{
+  border-color: #1FC0BB !important;
+  margin-top: 25px;
+}
+.ant-drawer-header{
+  background-color: #0b4442;
+  height: 80px;
+  border-bottom: solid 1px #062726;
+}
+.ant-drawer-title{
+  margin-top: 15px;
+  color: #bebebe;
+  font-size: 25px;
+}
+.menu-item{
+  color: #bebebe;
+  font-size: 20px;
+}
+.ant-menu-item:hover{
+  border-bottom: 2px solid #bebebe !important;
+}
+.ant-menu-horizontal > .ant-menu-item > a:hover {
+  color: #bebebe;
 }
 
 @media (max-width: 767px) {

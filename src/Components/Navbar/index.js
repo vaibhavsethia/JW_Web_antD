@@ -4,7 +4,7 @@ import { Drawer, Button } from 'antd';
 // import LeftMenu from './LeftMenu'
 import RightMenu from './RightMenu'
 
-import Logo from '../../Images/Logo/Logo_1.png'
+import Logo from '../../Images/Logo/Logo_4.png'
 import './styles.css'
 
 class Navbar extends Component {
@@ -27,7 +27,7 @@ class Navbar extends Component {
   render() {
     return (
         <nav className="menuBar shadow-2">
-        	<div className="logo">
+        	<div className="logo pt2 pb1 pl3 grow">
         		<a href="/"><img alt="Company-Logo" src={Logo}></img></a>
         	</div>
         	<div className="menuCon">

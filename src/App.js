@@ -11,6 +11,7 @@ import Career from "./Views/Career";
 import Team from "./Views/Team";
 
 import "./App.css";
+import Footer from "./Components/Footer";
 
 const { Content } = Layout;
 
@@ -27,6 +28,7 @@ class App extends Component {
             <AppRoute exact path="/team" component={Team} />
           </Switch>
         </Content>
+        <Footer />
       </div>
     );
   }
