@@ -1,19 +1,19 @@
 .header {
   font-family: 'Noto Serif', serif;
   font-size: 46px;
-  color: whitesmoke;
+  color: #bebebe;
 }
 .tagline {
   font-family: "Merriweather", serif;
   font-size: 20px;
-  color: whitesmoke;
+  color: #bebebe;
 }
 .ant-card {
   background-color: transparent !important; 
   border: transparent 2px solid !important;
 }
 .card-icon{
-  background-color: #5658DD;
+  background-color: #1FC0BB;
   width: 64px;
   height: 64px;
   font-size: 40px;

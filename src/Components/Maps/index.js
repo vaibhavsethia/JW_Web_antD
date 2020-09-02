@@ -32,15 +32,15 @@ export class Maps extends Component {
       <div>
         <Row className="tc mt3">
           <Col xl={3} lg={3} md={3} sm={0} sm={0}></Col>
-          <Col xl={6} lg={6} md={6} sm={24} sm={24} className="tc">
-            <p className="tc f3 lh-copy white mb4">
-              <Divider><i className=" white f2 fab fa-google"></i></Divider>
+          <Col xl={6} lg={6} md={6} sm={24} sm={24} className="tc color">
+            <p className="tc f3 lh-copy mb4">
+              <Divider><i className="white f2 fab fa-google"></i></Divider>
               {"Jonathon@jpwilliamson.org"}
             </p>
             <Divider>
               <i className="white f2 far fa-address-card"></i>
             </Divider>
-            <p className="white f3">
+            <p className="f3">
               JPWilliamson INC
               <br /> 
               24A Trolley Square #1346,

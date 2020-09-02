@@ -7,7 +7,7 @@ import { Row, Col, Divider } from "antd";
 export class Contact extends Component {
   render() {
     return (
-      <div className="section single">
+      <div className="section pb4">
         <SectionHeader
           Title={<span>Contact Us</span>}
           Tagline={
@@ -18,16 +18,6 @@ export class Contact extends Component {
           }
           AnimType="None"
         />
-        {/* <Row>
-          <Col xl={3} lg={3} md={3} sm={0} sm={0}>
-          </Col>
-          <Col xl={6} lg={6} md={6} sm={24} sm={24}>
-            <p className="tc f3 lh-copy white">
-            <Divider><i className=" white f2 fab fa-google"></i></Divider>
-              {"Jonathon@jpwilliamson.org"}
-            </p>
-          </Col>
-        </Row> */}
         <div>
           <Maps />
         </div>

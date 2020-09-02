@@ -6,7 +6,7 @@ export class SectionHeader extends Component {
   render() {
     if(this.props.AnimType === 'None'){
       return(
-        <div className="tc body pb5 pt5">
+        <div className="tc body pb5 pt4">
             <div className="header">{this.props.Title}</div>
           <Pulse left cascade>
             <div className="pt3"><div className="tagline">{this.props.Tagline}</div></div>

@@ -5,7 +5,9 @@
   border-style: ridge;
   border-width: 10px;
 }
-
+.color{
+  color: #bebebe;
+}
 .clear{
   background: transparent;
   border: none;

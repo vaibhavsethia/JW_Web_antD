@@ -11,15 +11,15 @@ const { Meta } = Card;
 
 const TechStack = [
   {
-    Name: <span><span style={{'fontSize':'40px', 'color': '#5657DD'}}>A</span>mazon Web Services</span>,
+    Name: <span><span style={{'fontSize':'40px', 'color': '#1FC0BB'}}>A</span>mazon Web Services</span>,
     Icon: "fas fa-microchip",
     Desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat.",
   }, {
-    Name: <span><span style={{'fontSize':'40px', 'color': '#5657DD'}}>R</span>eact</span>,
+    Name: <span><span style={{'fontSize':'40px', 'color': '#1FC0BB'}}>R</span>eact</span>,
     Icon: "fas fa-laptop",
     Desc: "One of the main technologies we use for our frontend is React alongwith UIs. Some of our projects that use this are JP Chit-Chat and JP Translator",
   }, {
-    Name: <span><span style={{'fontSize':'40px', 'color': '#5657DD'}}>P</span>ython</span>,
+    Name: <span><span style={{'fontSize':'40px', 'color': '#1FC0BB'}}>P</span>ython</span>,
     Icon: "fas fa-code",
     Desc: "What makes our platform standout other similar platforms and companies is the strong Machine Learning architecture a large chunk of which will be coded in Python.",
   }, {
@@ -59,7 +59,7 @@ export class Tech extends Component {
                   <Meta 
                     title={
                       <div className="tech-name">
-                        <span><span style={{'fontSize':'40px', 'color': '#5657DD'}}>A</span>mazon Web Services</span>
+                        <span><span style={{'fontSize':'40px', 'color': '#1FC0BB'}}>A</span>mazon Web Services</span>
                       </div>
                     } 
                     description={
@@ -81,7 +81,7 @@ export class Tech extends Component {
                   <Meta 
                     title={
                       <div className="tech-name">
-                        <span><span style={{'fontSize':'40px', 'color': '#5657DD'}}>R</span>eact</span>
+                        <span><span style={{'fontSize':'40px', 'color': '#1FC0BB'}}>R</span>eact</span>
                       </div>
                     } 
                     description={
@@ -103,7 +103,7 @@ export class Tech extends Component {
                   <Meta 
                     title={
                       <div className="tech-name">
-                        <span><span style={{'fontSize':'40px', 'color': '#5657DD'}}>P</span>ython</span>
+                        <span><span style={{'fontSize':'40px', 'color': '#1FC0BB'}}>P</span>ython</span>
                       </div>
                     } 
                     description={
@@ -128,7 +128,7 @@ export class Tech extends Component {
                   <Meta 
                     title={
                       <div className="tech-name">
-                        <span><span style={{'fontSize':'40px', 'color': '#5657DD'}}>J</span>ava</span>
+                        <span><span style={{'fontSize':'40px', 'color': '#1FC0BB'}}>J</span>ava</span>
                       </div>
                     } 
                     description={
@@ -150,7 +150,7 @@ export class Tech extends Component {
                   <Meta 
                     title={
                       <div className="tech-name">
-                        <span><span style={{'fontSize':'40px', 'color': '#5657DD'}}>G</span>raphQl</span>
+                        <span><span style={{'fontSize':'40px', 'color': '#1FC0BB'}}>G</span>raphQl</span>
                       </div>
                     } 
                     description={
@@ -172,7 +172,7 @@ export class Tech extends Component {
                   <Meta 
                     title={
                       <div className="tech-name">
-                        <span><span style={{'fontSize':'40px', 'color': '#5657DD'}}>A</span>pollo</span>
+                        <span><span style={{'fontSize':'40px', 'color': '#1FC0BB'}}>A</span>pollo</span>
                       </div>
                     } 
                     description={
