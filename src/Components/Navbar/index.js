@@ -26,7 +26,7 @@ class Navbar extends Component {
 
   render() {
     return (
-        <nav className="menuBar shadow-2">
+        <nav className="menuBar">
         	<div className="logo pt2 pb2 pl3 grow">
         		<a href="/"><img alt="Company-Logo" src={Logo}></img></a>
         	</div>

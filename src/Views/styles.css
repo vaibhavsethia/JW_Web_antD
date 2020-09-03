@@ -11,3 +11,17 @@
   color: #127572;
   text-decoration: underline;
 }
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: #1FC0BB;
+  font-weight: 500;
+  }
+.ant-tabs-nav .ant-tabs-tab:hover {
+  color: #1FC0BB;
+}
+.ant-tabs-ink-bar {
+  background-color: #1FC0BB;
+}
+.ant-tabs-nav .ant-tabs-tab {
+  display: inline-block;
+  color: #bebebe;
+}

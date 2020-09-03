@@ -1,0 +1,54 @@
+.ant-card {
+  background-color: transparent !important;
+  /* border: #bebebe 1px solid !important; */
+}
+.dimension{
+  height: 250px;
+  width: 256px;
+}
+.col-gray{
+  color: #bebebe;
+}
+.col-teal{
+  color: #1FC0BB;
+}
+.content{
+  width: 100%;
+}
+.ant-divider, .ant-divider-vertical {
+  height: 1.4em;
+}
+.link-hover{
+  color: #1FC0BB;
+}
+.ant-collapse-header{
+  color: #bebebe !important;
+
+}
+.ant-collapse-header:hover{
+  color: #1FC0BB !important;
+}
+.ant-collapse, .ant-collapse-item, .ant-collapse-header{
+  background-color: transparent !important;
+  border: none;
+}
+.ant-collapse-content{
+  color: #bebebe;
+  background-color: transparent !important;
+  border: none;
+}
+.ant-collapse-content > .ant-collapse-content-box {
+  padding: 2px;
+}
+.ant-collapse > .ant-collapse-item.ant-collapse-no-arrow > .ant-collapse-header {
+  padding-left: 0px;
+}
+.ant-collapse > .ant-collapse-item{
+  border-bottom-width: 0px;
+}
+.shadow-2:hover {
+  box-shadow: 0px 0px 20px 1px #0c4b49;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header{
+  padding: 0px 0px 0px 40px;
+}
