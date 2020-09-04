@@ -11,12 +11,24 @@ export class More extends Component {
        isCollapsed: true,
     }
   }
+
+  toggle = () =>{
+    this.setState({isCollapsed: !this.state.isCollapsed})
+  }
   
   render() {
+    var className=""
+    
+    if(this.state.isCollapsed){
+      className = "fas fa-chevron-down"
+    } else{
+      className = "fas fa-chevron-up"
+    }
+
     return (
-      <div>
+      <div onClick={this.toggle}>
         <Collapse defaultActiveKey={['0']} ghost>
-          <Panel className="tc" showArrow={false} header={<span>Know More <i class="fas fa-chevron-down"></i></span>} key="1">
+          <Panel className="tc" showArrow={false} header={<span>Know More <i className={className}></i></span>} key="1">
             <p className="tc pr1 pl1">{this.props.Desc}</p>
           </Panel>
         </Collapse>

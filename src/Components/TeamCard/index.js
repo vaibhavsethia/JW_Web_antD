@@ -20,7 +20,11 @@ export class TeamCard extends Component {
                 ?<div></div>
                 :<a href={this.props.Github}><i className="grow link-hover fab fa-github mr2"></i></a>
               }
-              <a href={this.props.LinkedIn}><i className="ml2 grow link-hover fab fa-linkedin"></i></a>
+              {
+                this.props.LinkedIn === ""
+                ?<div></div>
+                :<a href={this.props.LinkedIn}><i className="ml2 grow link-hover fab fa-linkedin"></i></a>
+              }
             </div>
             <div>
               <More 
