@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import SectionHeader from "../Utils/SectionHeader";
 import Maps from "../Components/Maps";
 import "./styles.css";
-import { Row, Col, Divider } from "antd";
 
 export class Contact extends Component {
   render() {

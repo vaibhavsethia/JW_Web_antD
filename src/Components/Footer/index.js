@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Row, Col, Divider } from 'antd'
-import Logo from '../../Images/Logo/Logo_4.png'
 
 import './styles.css'
 
@@ -10,9 +9,6 @@ export class Footer extends Component {
       <div className="footer">
         <Row className="mb2">
           <Col xl={6} lg={6} md={12} sm={12} xs={24} className="tc">
-            {/* <div className="logo-footer ma3 mt5 grow">
-              <a href="/"><img alt="Company-Logo" src={Logo}></img></a>
-            </div> */}
           </Col>
           <Col xl={6} lg={6} md={12} sm={12} xs={24}>
           </Col>
