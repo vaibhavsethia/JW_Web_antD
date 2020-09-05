@@ -1,0 +1,10 @@
+.col-gray{
+  color: #bebebe;
+}
+.col-teal{
+  color: #1FC0BB;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .arrow {
+  font-size: 20px;
+  line-height: 25px;
+}

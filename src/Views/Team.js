@@ -15,6 +15,8 @@ import Parul from '../Images/Profile/Parul.jpg'
 import Kaushal from '../Images/Profile/Kaushal.png'
 import Harshit from '../Images/Profile/Harshit.png'
 import Anonymous from '../Images/Profile/Anonymous.jpg'
+import Mridul from '../Images/Profile/Mridul.jpg'
+
 
 const { TabPane } = Tabs;
 
@@ -29,7 +31,7 @@ export class Team extends Component {
         />
         <Row className="tc">
         <Tabs className="tab" defaultActiveKey="1" centered>
-          <TabPane tab="Senior Team" key="1">
+          <TabPane tab={<span className="f4 fw3">Senior Team</span>} key="1">
             <Row className="tc mb2 mt1">
               <TeamCard 
                 Image = {Jon}
@@ -50,7 +52,7 @@ export class Team extends Component {
               <TeamCard 
                 Image = {Vaibhav}
                 Name = {<span>Vaibhav Sethia</span>}
-                Role = {<span>Web Developer</span>}
+                Role = {<span>Full Stack Developer</span>}
                 LinkedIn = "https://www.linkedin.com/in/vaibhav-sethia-4711b8145/"
                 Github = "https://github.com/vaibhavsethia"
                 Desc = {<span>Some people work to live but he lives to work. A night owl, gamer and sports lover. A coder who loves to play in new technologies, best for small talks and caffeine shots! He is always up for discussions around science fiction and some useless fact.</span>}
@@ -58,7 +60,7 @@ export class Team extends Component {
               <TeamCard 
                 Image = {Vivek}
                 Name = {<span>Vivek Sharma</span>}
-                Role = {<span>Java Developer</span>}
+                Role = {<span>Dev Ops</span>}
                 LinkedIn = "https://www.linkedin.com/in/vivek-sharma-33592a98/"
                 Github = "https://github.com/Baazigar007"
                 Desc = {<span>A Dr. Strange fan, you don't go to him for a second opinion, you go to him for a better opinion. A street smart guy good at bargaining (Trust me, I've seen him bargain with Dormammu). Focussed and values time, as the protector of time stone. His sacred relic? Laptop. His preferred dimension? Dark Dimension.</span>}
@@ -81,7 +83,7 @@ export class Team extends Component {
                 Desc = {<span>An Ambitious, Adaptive, Aspirant & Agile engineer who enjoys writing code, loves to face challenges and strive to do the best with whatever task or work is presented, in order to get the best results. Zealous learner with a Keep On Improving state of mind. Currently engrossed in the field of AI and planning to build a future around it.</span>}
               />    
           </TabPane>
-          <TabPane tab="Junior Team" key="2">
+          <TabPane tab={<span className="f4 fw3">Junior Team</span>} key="2">
             <Row className="tc mb2 mt1">
               <TeamCard 
                 Image = {Kishan}
@@ -117,11 +119,11 @@ export class Team extends Component {
               />
             </Row>
             <TeamCard 
-                Image = {Anonymous}
+                Image = {Mridul}
                 Name = {<span>Mridul Gupta</span>}
                 Role = {<span>Modeller</span>}
-                LinkedIn = ""
-                Github = ""
+                LinkedIn = "https://www.linkedin.com/in/mridulcse27"
+                Github = "https://github.com/Mrd278"
                 Desc = {<span>A cricket lover, loves to play and code the games. Passionate about the work. wants to enhance the experience of gaming with advanced technologies. Wants the best out of the rest.</span>}
               />
               <TeamCard 
