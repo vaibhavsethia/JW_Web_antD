@@ -31,7 +31,7 @@ export class Team extends Component {
         />
         <Row className="tc">
         <Tabs className="tab" defaultActiveKey="1" centered>
-          <TabPane tab={<span className="f4 fw3">Senior Team</span>} key="1">
+          <TabPane tab={<span className="f4 fw3">Veteran Team</span>} key="1">
             <Row className="tc mb2 mt1">
               <TeamCard 
                 Image = {Jon}
@@ -83,7 +83,7 @@ export class Team extends Component {
                 Desc = {<span>An Ambitious, Adaptive, Aspirant & Agile engineer who enjoys writing code, loves to face challenges and strive to do the best with whatever task or work is presented, in order to get the best results. Zealous learner with a Keep On Improving state of mind. Currently engrossed in the field of AI and planning to build a future around it.</span>}
               />    
           </TabPane>
-          <TabPane tab={<span className="f4 fw3">Junior Team</span>} key="2">
+          <TabPane tab={<span className="f4 fw3">Seasoned Team</span>} key="2">
             <Row className="tc mb2 mt1">
               <TeamCard 
                 Image = {Kishan}

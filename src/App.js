@@ -11,6 +11,7 @@ import Career from "./Views/Career";
 import Team from "./Views/Team";
 import FAQs from "./Views/FAQs";
 import Policy from "./Views/Policy";
+import Project from "./Views/Project";
 
 import "./App.css";
 import Footer from "./Components/Footer";
@@ -32,6 +33,7 @@ class App extends Component {
             <AppRoute exact path="/team" component={Team} />
             <AppRoute exact path="/faq" component={FAQs} />
             <AppRoute exact path="/policy" component={Policy} />
+            <AppRoute exact path="/projects" component={Project} />
           </Switch>
         </Content>
         <Footer />

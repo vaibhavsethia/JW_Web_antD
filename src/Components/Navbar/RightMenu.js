@@ -13,9 +13,9 @@ class RightMenu extends Component {
         <Menu.Item className="pl2" key="team">
           <a className="hover-item" href="/team"><span className="menu-item link-hover">Team</span></a>
         </Menu.Item>
-        {/* <Menu.Item className="pl2" key="contact">
-          <a className="hover-item" href="contact"><span className="menu-item link-hover">Contact</span></a>
-        </Menu.Item> */}
+        <Menu.Item className="pl2" key="contact">
+          <a className="hover-item" href="/projects"><span className="menu-item link-hover">Projects</span></a>
+        </Menu.Item>
         <Menu.Item className="pl2" key="careers">
           <a className="hover-item" href="/careers"><span className="menu-item link-hover">Careers</span></a>
         </Menu.Item>

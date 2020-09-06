@@ -23,7 +23,6 @@ export class Footer extends Component {
             <Row className="b mt3">Social</Row>
             <Row><a href="/" className="link-hover"><span className="fw2">Linkedin</span></a></Row>
             <Row><a href="/" className="link-hover"><span className="fw2">Blog</span></a></Row>
-            
           </Col>
         </Row>
         <Row className="tc">
