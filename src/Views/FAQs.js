@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import SectionHeader from '../Utils/SectionHeader'
-import FooterTable from '../Components/FooterTable'
+import FAQTable from '../Components/FAQTable'
 
 export class FAQs extends Component {
   render() {
@@ -12,7 +12,7 @@ export class FAQs extends Component {
           Tagline = {<span>We are happy to help if you have any questions for us,<br /> A wise man once said,<br /> "He Who asks a question remains a fool for 5 minutes,<br/> but the one who doesnt remains a fool forever."</span>} 
           AnimType = "None"   
         />
-        <FooterTable />
+        <FAQTable />
       </div>
     )
   }

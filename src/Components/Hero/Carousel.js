@@ -53,7 +53,7 @@ class Carousel extends React.Component {
             className="banner-user-text"
             animation={{ y: 30, opacity: 0, type: "from", delay: 100 }}
           >
-            and many new modes in Minecraft
+            and many new modes in Minecraftt
           </TweenOne>
         </Element>
       </BannerAnim>

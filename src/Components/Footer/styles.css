@@ -11,10 +11,10 @@
 .col-gray{
   color: #bebebe;
 }
-.link-hover{
+.link-hover-footer{
   color : #bebebe;
 }
-.link-hover:hover{
+.link-hover-footer:hover{
   text-decoration: underline;
   color: #1FC0BB;
 }

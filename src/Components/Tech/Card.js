@@ -12,7 +12,7 @@ export class TechCard extends Component {
         <Card
           hoverable
           style={{ width: 320 }}
-          cover={<div><i className="tc card-icon fa fa-microchip white"></i></div>}
+          cover={<div><i className="tc card-icon fa fa-microchip tech-icon white"></i></div>}
           className="card"
         >
           <Meta title={<div className="tech-name">{this.props.TechName}</div>} description={<div className="tech-desc">{this.props.Desc}</div>} />

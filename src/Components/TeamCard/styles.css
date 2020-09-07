@@ -1,13 +1,12 @@
 .ant-card {
   background-color: transparent !important;
-  /* border: #bebebe 1px solid !important; */
 }
 .dimension{
   height: 275px;
   width: 256px;
 }
 .col-gray{
-  color: #bebebe;
+  color: #bebebe !important;
 }
 .col-teal{
   color: #1FC0BB;
@@ -19,7 +18,10 @@
   height: 1.4em;
 }
 .link-hover{
-  color: #1FC0BB;
+  color: #bebebe !important;
+}
+.link-hover:hover{
+  color: #1FC0BB !important;
 }
 .ant-collapse-header{
   color: #bebebe !important;

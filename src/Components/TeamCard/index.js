@@ -17,7 +17,7 @@ export class TeamCard extends Component {
               {
                 this.props.Github === ""
                 ?<div></div>
-                :<a href={this.props.Github}><i className="grow link-hover fab fa-github mr2"></i></a>
+                :<a href={this.props.Github}><i className="grow link-hover fab fa-github mr2 git-link"></i></a>
               }
               {
                 this.props.LinkedIn === ""
