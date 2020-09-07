@@ -88,7 +88,7 @@ export class Team extends Component {
               <TeamCard 
                 Image = {Kishan}
                 Name = {<span>Kishan</span>}
-                Role = {<span>Java Developer</span>}
+                Role = {<span>Modeller</span>}
                 LinkedIn = ""
                 Github = ""
                 Desc = {<span>An enthusiastic manga reader and anime watcher. Throughout the day you'll find him either playing games or supporting fc barcelona(#Força Barça) or hanging out with his friends on discord.Hopes to to becomes 1500 rated on chess.com.Loves everything 3d and animation.</span>}
@@ -121,7 +121,7 @@ export class Team extends Component {
             <TeamCard 
                 Image = {Mridul}
                 Name = {<span>Mridul Gupta</span>}
-                Role = {<span>Modeller</span>}
+                Role = {<span>Java Developer</span>}
                 LinkedIn = "https://www.linkedin.com/in/mridulcse27"
                 Github = "https://github.com/Mrd278"
                 Desc = {<span>A cricket lover, loves to play and code the games. Passionate about the work. wants to enhance the experience of gaming with advanced technologies. Wants the best out of the rest.</span>}

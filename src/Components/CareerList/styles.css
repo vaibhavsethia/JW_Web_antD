@@ -1,5 +1,5 @@
 .col-gray{
-  color: #bebebe;
+  color: #bebebe !important;
 }
 .col-teal{
   color: #1FC0BB;
@@ -10,4 +10,9 @@
   color: #1FC0BB !important;
   background-color: transparent !important;
   border-color: #1FC0BB !important;
-  }
+}
+.disabled-btn{
+  color: #bebebe !important;
+  background-color: transparent !important;
+  border-color: #bebebe !important;
+}

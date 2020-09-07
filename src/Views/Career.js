@@ -13,7 +13,6 @@ export class Career extends Component {
       title = <span>We are recruiting</span>;
       tagline = (
         <span>
-          <p>Our team wants you</p>
           <p>
             Our team wants you, We are recruiting for the below positions.
             <br /> Feel free to mail us your resume at the below link, We will
@@ -39,7 +38,7 @@ export class Career extends Component {
       <div className={className}>
         <SectionHeader id="career-header" Title={title} Tagline={tagline} AnimType="None" />
         {isRecruiting ? (
-          <div>
+          <div className="pb3">
             <CareerList />
           </div>
         ) : (
