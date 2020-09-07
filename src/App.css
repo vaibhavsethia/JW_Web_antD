@@ -1,0 +1,10 @@
+a{
+  color: #bebebe !important;
+}
+i{
+  color: #bebebe !important;
+}
+a:hover{
+  color: #1FC0BB !important;
+  text-transform: none !important;
+}

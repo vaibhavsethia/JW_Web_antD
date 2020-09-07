@@ -17,13 +17,13 @@ class Carousel extends React.Component {
             className="banner-user-title"
             animation={{ y: 30, opacity: 0, type: "from" }}
           >
-            Ant Motion Banner
+            J Williamson
           </TweenOne>
           <TweenOne
             className="banner-user-text"
             animation={{ y: 30, opacity: 0, type: "from", delay: 100 }}
           >
-            The Fast Way Use Animation In React
+            You Play, We Develop
           </TweenOne>
         </Element>
         <Element prefixCls="banner-user-elem" key="1">
@@ -32,13 +32,13 @@ class Carousel extends React.Component {
             className="banner-user-title"
             animation={{ y: 30, opacity: 0, type: "from" }}
           >
-            Ant Motion Banner
+            Using AI and ML
           </TweenOne>
           <TweenOne
             className="banner-user-text"
             animation={{ y: 30, opacity: 0, type: "from", delay: 100 }}
           >
-            The Fast Way Use Animation In React
+            In Gaming for an immersive experience
           </TweenOne>
         </Element>
         <Element prefixCls="banner-user-elem" key="2">
@@ -47,13 +47,13 @@ class Carousel extends React.Component {
             className="banner-user-title"
             animation={{ y: 30, opacity: 0, type: "from" }}
           >
-            Ant Motion Banner
+            Competitive Gaming
           </TweenOne>
           <TweenOne
             className="banner-user-text"
             animation={{ y: 30, opacity: 0, type: "from", delay: 100 }}
           >
-            The Fast Way Use Animation In React
+            and many new modes in Minecraft
           </TweenOne>
         </Element>
       </BannerAnim>

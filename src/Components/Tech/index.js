@@ -35,7 +35,7 @@ export class Tech extends Component {
                       </div>
                     } 
                     description={
-                      <div className="tech-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat.</div>
+                      <div className="tech-desc">Aws provides on demand backend and cloud computing services for our team. Some of the services that we use or intend to use are Kinesis , Appsync, Codecommit, Amplify, DynamoD, S3, EC2 and Route53  .</div>
                     } />
                 </Card>
               </div>
