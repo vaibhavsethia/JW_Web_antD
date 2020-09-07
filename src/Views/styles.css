@@ -25,3 +25,12 @@
   display: inline-block;
   color: #bebebe;
 }
+.empty{
+  height: 80vh;
+}
+.col-gray{
+  color: #bebebe;
+}
+.col-teal{
+  color: #1FC0BB;
+}

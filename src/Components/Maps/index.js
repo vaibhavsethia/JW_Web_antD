@@ -49,7 +49,7 @@ export class Maps extends Component {
               <br />
               USA
             </p>
-            <a className="mr4 mt2" src="https://www.google.com/maps/place/24a+Trolley+Square+%231346,+Wilmington,+DE+19806,+USA/@39.7579316,-75.5635113,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6fd100d7f0e53:0xbb7686ec9af9bc6d!8m2!3d39.7579316!4d-75.5613226"><i class="white f3 fas fa-directions"></i></a>
+            <a className="mr4 mt2" href="https://www.google.co.in/maps/dir//24a+Trolley+Square+%231346,+Wilmington,+DE+19806,+USA/@39.7579357,-75.5635113,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c6fd100d7f0e53:0xbb7686ec9af9bc6d!2m2!1d-75.5613226!2d39.7579316"><i class="white f3 fas fa-directions"></i></a>
             <CopyToClipboard text="
               JPWilliamson INC
               24A Trolley Square #1346
@@ -63,7 +63,7 @@ export class Maps extends Component {
             <div className="tc ma3">
               <button
                 className="clear"
-                onClick=" window.open('http://google.com','_blank')"
+                href=""
               >
                 <img alt="Maps" className="map-image shadow-2" src={Map}></img>
               </button>

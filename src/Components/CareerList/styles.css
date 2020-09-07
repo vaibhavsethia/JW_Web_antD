@@ -1,0 +1,13 @@
+.col-gray{
+  color: #bebebe;
+}
+.col-teal{
+  color: #1FC0BB;
+}
+.ant-btn {
+  line-height: 1.5;
+  border: 1px solid transparent;
+  color: #1FC0BB !important;
+  background-color: transparent !important;
+  border-color: #1FC0BB !important;
+  }
