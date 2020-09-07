@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Card } from 'antd';
+
 import './styles.css'
 
 const { Meta } = Card;

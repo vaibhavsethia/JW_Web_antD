@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade';
 import { Card, Row, Col } from 'antd';
 
-import './styles.css'
-
 // import TechCard from './Card'
 import SectionHeader from '../../Utils/SectionHeader';
+
+import './styles.css'
 
 const { Meta } = Card;
 

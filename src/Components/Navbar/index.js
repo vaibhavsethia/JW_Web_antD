@@ -3,8 +3,8 @@ import { Drawer, Button } from 'antd';
 
 // import LeftMenu from './LeftMenu'
 import RightMenu from './RightMenu'
-
 import Logo from '../../Images/Logo/Logo_4.png'
+
 import './styles.css'
 
 class Navbar extends Component {

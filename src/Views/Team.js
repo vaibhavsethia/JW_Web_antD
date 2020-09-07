@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import SectionHeader from '../Utils/SectionHeader'
-import TeamCard from '../Components/TeamCard';
 import { Row, Tabs } from 'antd';
 
+import SectionHeader from '../Utils/SectionHeader'
+import TeamCard from '../Components/TeamCard';
 import Arnav from '../Images/Profile/Arnav.jpg'
 import Jon from '../Images/Profile/Jon.jpeg'
 import Prashant from '../Images/Profile/Prashant.jpg'
@@ -16,7 +16,6 @@ import Kaushal from '../Images/Profile/Kaushal.png'
 import Harshit from '../Images/Profile/Harshit.png'
 import Anonymous from '../Images/Profile/Anonymous.jpg'
 import Mridul from '../Images/Profile/Mridul.jpg'
-
 
 const { TabPane } = Tabs;
 

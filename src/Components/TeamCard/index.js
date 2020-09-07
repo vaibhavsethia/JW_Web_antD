@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { Divider, Col } from 'antd'
 
-import './styles.css'
 import { More } from './More';
+
+import './styles.css'
 
 export class TeamCard extends Component {
   render() {

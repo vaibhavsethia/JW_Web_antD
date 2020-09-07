@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+
 import SectionHeader from "../Utils/SectionHeader";
 import Maps from "../Components/Maps";
+
 import "./styles.css";
 
 export class Contact extends Component {

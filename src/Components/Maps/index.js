@@ -3,9 +3,9 @@ import React, { Component } from "react";
 import { Row, Col, Divider } from "antd";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 
-import "./styles.css";
-
 import Map from "../../Images/Maps.png";
+
+import "./styles.css";
 
 export class Maps extends Component {
   constructor(props) {

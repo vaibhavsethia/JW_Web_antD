@@ -4,6 +4,7 @@ import { Layout, Affix } from "antd";
 
 import AppRoute from "./Utils/AppRoute";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 import Home from "./Views/Home";
 import Contact from "./Views/Contact";
@@ -14,7 +15,6 @@ import Policy from "./Views/Policy";
 import Project from "./Views/Project";
 
 import "./App.css";
-import Footer from "./Components/Footer";
 
 const { Content } = Layout;
 

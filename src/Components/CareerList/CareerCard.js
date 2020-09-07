@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { Col, Collapse, Button } from 'antd'
 
-import './styles.css'
 import ApplyButton from './ApplyButton';
+
+import './styles.css'
 
 const { Panel } = Collapse;
 

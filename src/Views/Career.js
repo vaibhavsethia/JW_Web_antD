@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import SectionHeader from "../Utils/SectionHeader";
 import { Divider } from "antd";
+
+import SectionHeader from "../Utils/SectionHeader";
 import CareerList from "../Components/CareerList";
 
 const isRecruiting = true;

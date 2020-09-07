@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
+
 import SectionHeader from '../../Utils/SectionHeader'
 import MethodCard from './MethodCard'
-
 import Method1 from '../../Images/Methodology/Method_1.jpg'
 import Method2 from '../../Images/Methodology/Method_2.png'
 

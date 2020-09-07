@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { Row } from "antd";
 
-import './styles.css'
 import TextCard from "./TextCard";
 import ImageCard from "./ImageCard";
+
+import './styles.css'
 
 export class MethodCard extends Component {
   render() {
