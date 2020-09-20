@@ -14,7 +14,7 @@ import Kishan from '../Images/Profile/Kishan.jpg'
 import Parul from '../Images/Profile/Parul.jpg'
 import Kaushal from '../Images/Profile/Kaushal.png'
 import Harshit from '../Images/Profile/Harshit.png'
-import Anonymous from '../Images/Profile/Anonymous.jpg'
+// import Anonymous from '../Images/Profile/Anonymous.jpg'
 import Mridul from '../Images/Profile/Mridul.jpg'
 
 const { TabPane } = Tabs;
@@ -133,14 +133,14 @@ export class Team extends Component {
                 Github = "https://github.com/harshit2608"
                 Desc = {<span></span>}
               />
-              <TeamCard 
+              {/* <TeamCard 
                 Image = {Anonymous}
                 Name = {<span>Payal Mohanty</span>}
                 Role = {<span>Java Developer</span>}
                 LinkedIn = ""
                 Github = ""
                 Desc = {<span></span>}
-              />
+              /> */}
           </TabPane>
         </Tabs>
         </Row>

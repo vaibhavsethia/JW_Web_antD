@@ -18,8 +18,8 @@ export class SectionHeader extends Component {
       return (
         <div className="tc body pb5 pt5">
           <Parallax
-            animation={{ x: 0 }}
-            style={{ transform: 'translateX(-300px)', margin: '10px auto' }}
+            animation={{ x: 20 }}
+            style={{ transform: 'translateX(-200px)', margin: '10px auto' }}
           >
           <span className="header"><strong>{this.props.Title}</strong></span><br/>
           <Pulse>

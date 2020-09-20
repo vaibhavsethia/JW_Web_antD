@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Divider } from "antd";
 
 import SectionHeader from "../Utils/SectionHeader";
 import CareerList from "../Components/CareerList";

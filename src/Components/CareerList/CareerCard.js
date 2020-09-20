@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Col, Collapse, Button } from 'antd'
+import { Col, Collapse } from 'antd'
 
 import ApplyButton from './ApplyButton';
 
@@ -34,7 +34,7 @@ export class CareerCard extends Component {
       <div className="tc">
         <Col className="pb3" xl={12} lg={12} md={12} sm={24} xs={24}>
           <div>
-            <img className="career-image h5 w5 br4 shadow-2 grow" src={this.props.Image}></img>
+            <img alt="position" className="career-image h5 w5 br4 shadow-2 grow" src={this.props.Image}></img>
             <p className="col-gray pt1 f3 fw3"><span className="col-teal fw5">Role : </span>{this.props.Role}</p>
             <Collapse ghost>
               <Panel showArrow={false} header={<span className="col-teal f4 fw3 ba pa2 pt1 pb1 br3" onClick={this.Toggle}>{ButtonContent}</span>} key="1">

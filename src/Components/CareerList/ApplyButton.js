@@ -12,7 +12,7 @@ export class ApplyButton extends Component {
           ?<Button ghost href={this.props.Link}>
             Apply
           </Button>
-          :<Tooltip placement="right" title={<span className="col-gray">Applications have closed</span>}>
+          :<Tooltip placement="bottom" title={<span className="col-gray">Applications have closed</span>}>
             <Button className="disabled-btn" ghost href={this.props.Link} disabled>
               Apply
             </Button>
