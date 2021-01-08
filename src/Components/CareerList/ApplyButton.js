@@ -9,11 +9,11 @@ export class ApplyButton extends Component {
       <div>
         {
           this.props.IsOpen
-          ?<Button ghost href={this.props.Link}>
+          ?<Button target="_blank" ghost href={this.props.Link}>
             Apply
           </Button>
           :<Tooltip placement="bottom" title={<span className="col-gray">Applications have closed</span>}>
-            <Button className="disabled-btn" ghost href={this.props.Link} disabled>
+            <Button target="_blank" className="disabled-btn" ghost href={this.props.Link} disabled>
               Apply
             </Button>
           </Tooltip>

@@ -58,7 +58,7 @@ export class CareerCard extends Component {
                 }{
                   this.props.Description === ""
                   ?<div></div>
-                  : <p>{this.props.Description}</p>
+                  : <p> Description : <span className="fw3 col-gray">{this.props.Description}</span></p>
                 }
                 <ApplyButton 
                   IsOpen = {this.props.IsOpen}
