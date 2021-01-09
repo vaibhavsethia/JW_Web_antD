@@ -22,7 +22,7 @@ export class CareerList extends Component {
             Stipend = "Unpaid"
             Description = "As a 3D modeler you will be responsible for creating virtual worlds and characters. You will be breathing life into sketches and concept art. You will be working in a team with lots of other talented artists, engineers and programmers and will learn about different related technologies. You must be well versed with industry standard 3D modeling programs and tools. Good spatial skills and a well honed sense of color and design will help you succeed in this job."
             IsOpen = {true}
-            Link = "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGMhdWTcntCvBdhfqwFrDqQTdFPCznVShZJGdmDZhhMvXRXVtDDkGLcPBbpZcXNpnLPhFst"
+            Subject = "Modeller Internship"
           />
         </Fade>
         <Fade right>
@@ -35,7 +35,7 @@ export class CareerList extends Component {
             Stipend = "Unpaid"
             Description = "We are looking for a Java Developer for building high-performing, scalable, enterprise-grade applications.You will be part of a talented software team that works on mission-critical applications. Java developer roles and responsibilities include managing Maven builds while providing expertise in the full software development lifecycle, from concept and design to testing."
             IsOpen = {true}
-            Link = "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzCbRJVXnDfFJNbGvlDWZSbgRJDDrtGcXvFVpjVtSjlGTkmsKnFgRQrFNWXzNTvzwmWQxfq"
+            Subject = "Java Developer Internship"
           />
         </Fade>
         </Row>

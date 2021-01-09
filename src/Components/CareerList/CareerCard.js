@@ -62,7 +62,7 @@ export class CareerCard extends Component {
                 }
                 <ApplyButton 
                   IsOpen = {this.props.IsOpen}
-                  Link = {this.props.Link}
+                  Subject = {this.props.Subject}
                 />
                 </div>
               </Panel>
