@@ -9,9 +9,14 @@ export class ApplyButton extends Component {
       <div>
         {
           this.props.IsOpen
-          ?<Button target="_blank" ghost href={`mailto:recruitment@jpwilliamson.org?subject=${this.props.Subject}`}>
+          ?<div>
+          <Button target="_blank" ghost href={`mailto:recruitment@jpwilliamson.org?subject=${this.props.Subject}`}>
             Apply
           </Button>
+          <div className="pt3 col-gray">
+            Or Mail us at : recruitment@jpwilliamson.org
+          </div>
+        </div>
           :<Tooltip placement="bottom" title={<span className="col-gray">Applications have closed</span>}>
             <Button target="_blank" className="disabled-btn" ghost href={this.props.Link} disabled>
               Apply
