@@ -46,7 +46,7 @@ export class Career extends Component {
             <i class="white far fa-envelope f1"></i>
             <p className="col-gray pt3 f3">
               <strong className="col-teal f3">Mail Us At</strong> :
-              recruitment@jpwilliamson.org
+              contact@jpwilliamson.org
             </p>
           </div>
         )}
