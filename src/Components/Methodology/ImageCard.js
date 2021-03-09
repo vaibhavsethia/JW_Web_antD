@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Rotate from "react-reveal/Rotate";
+import Fade from "react-reveal/Fade";
 import { Col } from "antd";
 
 export class ImageCard extends Component {
   render() {
     return (
       <div>
-        <Rotate bottom right>
+        <Fade right>
           <Col className="tc" xl={12} lg={12} md={12} sm={24} xs={24}>
             <img
               className="br4 image"
@@ -14,7 +14,7 @@ export class ImageCard extends Component {
               src={this.props.Image}
             ></img>
           </Col>
-        </Rotate>
+        </Fade>
       </div>
     );
   }
