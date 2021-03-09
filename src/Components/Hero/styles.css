@@ -1,52 +1,33 @@
-.banner-user{
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+
+.banner-user {
   height: 91.5vh;
 }
-.banner-user-elem{
+.banner-user-elem {
   text-align: center;
   color: #fff;
   position: relative;
   overflow: hidden;
 }
-.banner-user-elem .banner-user-title{
+.banner-user-elem .banner-user-title {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: bold;
   font-size: 64px;
   top: 40%;
-  text-shadow: 0px 0px 5px #000000, 0 0 3px #1FC0BB;
-  stroke: 1px solid #1FC0BB;
+  text-shadow: 3px 3px 3px #000000, 0 0 3px #1fc0bb;
+  stroke: 1px solid #1fc0bb;
 }
-.banner-user-elem .banner-user-text{
+.banner-user-elem .banner-user-text {
+  font-family: "DotGothic16", sans-serif;
   font-size: 30px;
   top: 40%;
-  text-shadow: 0px 3px 5px #000000, 0 0 2px #1FC0BB;
+  text-shadow: 3px 3px 3px #000000, 0 0 2px #1fc0bb;
 }
-.banner-anim-elem .bg{
+.banner-anim-elem .bg {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   overflow: hidden;
-}
-.banner-1{
-  background-image: url("../../Images/Banner/1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
-}
-.banner-2{
-  background-image: url("../../Images/Banner/2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
-}
-.banner-3{
-  background-image: url("../../Images/Banner/3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
-}
-.banner-4{
-  background-image: url("../../Images/Banner/4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: center;
 }
