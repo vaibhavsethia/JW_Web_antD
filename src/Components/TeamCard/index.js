@@ -21,7 +21,7 @@ export class TeamCard extends Component {
             :<a href={this.props.Github}><i className="f4 grow link-hover fab fa-github mr2 git-link"></i></a>
           }
           <br/>
-          <p className=" f5 col-gray mt1 tl pr1 pl1"><Bounce right cascade>{this.props.Desc}</Bounce></p>
+          <p className=" f5 col-gray mt1 tl pr1 pl1">{this.props.Desc}</p>
         </Col>
       </Row>
     )

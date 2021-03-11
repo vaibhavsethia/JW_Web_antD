@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import SectionHeader from "../Utils/SectionHeader";
 import CareerList from "../Components/CareerList";
+import { Button } from "antd";
 
 const isRecruiting = true;
 
@@ -35,11 +36,12 @@ export class Career extends Component {
     }
 
     return (
-      <div className={className}>
-        <SectionHeader id="career-header" Title={title} Tagline={tagline} AnimType="None" />
+      <div style={{height: '64vh'}} className={className}>
+        <SectionHeader id="career-header" Title={title} Tagline={<span>Interested In Joining our Team ?</span>} AnimType="None" />
         {isRecruiting ? (
-          <div className="pb3">
-            <CareerList />
+          <div className="pb3 tc">
+            <Button target="_blank" href="https://forms.gle/zjTrEWT6zFzgFxwr6" className="apply-button">Apply Here</Button>
+            {/* <CareerList /> */}
           </div>
         ) : (
           <div className="tc">
