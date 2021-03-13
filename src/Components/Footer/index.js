@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import { Row, Col, Divider } from 'antd'
-
+import Logo from '../../Images/Logo/Logo_4.png'
 import './styles.css'
 
 export class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <Row className="mb2">
+        <Row align="middle" className="mb2">
           <Col xl={6} lg={6} md={12} sm={12} xs={24} className="tc">
+            <img className="w5" src={Logo}></img>
           </Col>
           <Col xl={6} lg={6} md={12} sm={12} xs={24}>
           </Col>
