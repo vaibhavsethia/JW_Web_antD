@@ -10,15 +10,15 @@ export class MethodCard extends Component {
   render() {
     return (
       <div>
-        <Row className="pa3 pr5 pl5 col-gray">
-            <TextCard
-              Title = {this.props.Title}
-              Tag = {this.props.Tag}
-              Desc = {this.props.Desc}
-            />
-            <ImageCard 
-              Image = {this.props.Image}
-            />
+        <Row justify="center" align="middle" type="flex" className="pa3 pl5 pr5 col-gray">
+          <TextCard
+            Title = {this.props.Title}
+            Tag = {this.props.Tag}
+            Desc = {this.props.Desc}
+          />
+          <ImageCard 
+            Image = {this.props.Image}
+          />
         </Row>
       </div>
     );

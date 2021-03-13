@@ -10,8 +10,10 @@ import Discord1 from '../Images/Discord1.png'
 import Discord2 from '../Images/Discord2.jpg'
 import Discord3 from '../Images/Discord3.png'
 import Discord4 from '../Images/Discord4.jpg'
+import Achieve1 from '../Images/Achieve1.png'
+import Achieve2 from '../Images/Achieve2.jpeg'
+import Achieve3 from '../Images/Achieve3.png'
 import { Row } from 'antd'
-import Fade from 'react-reveal/Fade';
 
 export class Project extends Component {
   render() {
@@ -25,24 +27,24 @@ export class Project extends Component {
 
         <ProjectCard 
           Title = "Custom 3D Models"
-          Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
+          Description = "Our modelling team produces creative 3d models that enhances the user gameplay and make minecraft more appealing to the eyes. We have many unique 3d models ranging from cool cosmetic items to astonishing creatures with unique abilities."
           Images = {["https://collectables-db.s3.amazonaws.com/PET/tiger_cub/tigercub.gif", "https://collectables-db.s3.amazonaws.com/PET/bb8/bb8.gif", "https://collectables-db.s3.amazonaws.com/PET/mini_dragon/mini_dragon.gif", "https://collectables-db.s3.amazonaws.com/PET/walle/walle_walk.gif"]}
         />
         <ProjectCard 
           Title = "Interactive Mini Games"
-          Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
+          Description = "Our Minigames team creates a lot of common minigames and a lot unique ones. If you're bored of playing all those common minigames over and over, you are at right place ! If you are a classic person that doesn't want to switch to new minigames, we have got all the classic ones too !"
           Images = {["https://megaminehostedimages.s3.amazonaws.com/GameMode_Banners/Sumo.png", "https://megaminehostedimages.s3.amazonaws.com/GameMode_Banners/Sky_Wars.png", "https://megaminehostedimages.s3.amazonaws.com/GameMode_Banners/Man_Hunt.png", "https://megaminehostedimages.s3.amazonaws.com/GameMode_Banners/Duels.png"]}
         />
         <ProjectCard 
           Title = "Discord Bots"
-          Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
+          Description = "Our Bots not only detect vulgarity in any message , they have a lot of cool features like throwing in a random minecraft fact every day, you can ask a yes/no question to bot and much more. Our bot helps us keep the chat clean as well as deletes the spam message by itself and punishes the user according to owner."
           Images = {[Discord1, Discord2, Discord3, Discord4]}
         />
-        {/* <ProjectCard 
+        <ProjectCard 
           Title = "Megamine"
-          Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
+          Description = "Megamine is a website where you can create a account , buy and spend mega (a currency in jpwilliamson.org and minecraft). This is a platform where a lot of interesting things ranging from live leaderboards to top live streams occur. You can spend mega on our 3d models, see yourself on live real time leaderboards, be a part of creator program , checkout new gamemodes and many more !"
           Images = {[]}
-        /> */}
+        />
 
         <SectionHeader 
           Title = {<span>Future Projects</span>}
@@ -50,35 +52,31 @@ export class Project extends Component {
           AnimType = "None"
         />
 
-        <Row className="pl4 pr4">
-          <Fade left>
-            <FutureCard 
-              Title = "Auto-translating real time chat app"
-              Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
-              Image = {Future1}
-            />
-          </Fade>
-          <Fade left>
-            <FutureCard 
-              Title = "Music player that integrates many platforms"
-              Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
-              Image = {Future2}
-            />
-          </Fade>
-          <Fade right>
-            <FutureCard 
-              Title = "Esports betting and enhanced gameplay"
-              Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
-              Image = {Future4}
-            />
-          </Fade>
-          <Fade right>
-            <FutureCard 
-              Title = "Entertainment platform for content creators"
-              Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
-              Image = {Future3}
-            />
-          </Fade>
+        <Row type="flex" justify="center" className="pl4 pr4">
+          <FutureCard 
+            left = {true}
+            Title = "Auto-translating real time chat app"
+            Description = "We envision a world with no more language barriers. An App that would translate from one language to another in real time, which would be AWS backed so there's no scalability issue."
+            Image = {Future1}
+          />
+          <FutureCard 
+            left = {true}
+            Title = "Music player that integrates many platforms"
+            Description = "A common ground for a single music player where all these apps - soundcloud, spotify, google play music comes under one unmbrella , are integrated and lets user listen to any song automatically."
+            Image = {Future2}
+          />
+          <FutureCard 
+            left = {false}
+            Title = "Esports betting and enhanced gameplay"
+            Description = " Enhancong the gameplays using some creative, Unique 3d models and allowing users to bet on gameplays in real time is something that would keep users engaged. An app at your service if you want to bet on live action."
+            Image = {Future4}
+          />
+          <FutureCard 
+            left = {false}
+            Title = "Entertainment platform for content creators"
+            Description = "The idea is to embed many social feeds into one page and allow for content creators to have access to many nice software tools in a very cool looking UI. This also includes things like Twitch overlays"
+            Image = {Future3}
+          />
         </Row>
 
         <SectionHeader 
@@ -87,28 +85,27 @@ export class Project extends Component {
           AnimType = "None"
         />
 
-        <ProjectCard 
-          Title = "Auto-translating real time chat app"
-          Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
-          Images = {[]}
+       <Row type="flex" justify="center"  className="pa3 pb4">
+        <FutureCard
+          left = {false} 
+          Title = "Funding & Credits"
+          Description = "Our Company is Well-Funded, and backed by AWS with lots of credits that helps us in initial stages of our venture. We are also partnered by OVH Startup Program and have OVH Credits"
+          Image = {Achieve1}
         />
-        <ProjectCard 
-          Title = "Music player that integrates many platforms"
-          Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
-          Images = {[]}
+        <FutureCard
+          left = {true} 
+          Title = "A Powerful Multiplexer"
+          Description = "We have been able to code a system 'Mutiplexer' that creates and destroys minecraft arenas in no time, thus enhancing user gameplays to another level. Some tests even suggest it being powerful than our current competitions."
+          Image = {Achieve2}
         />
-        <ProjectCard 
-          Title = "Entertainment platform for content creators"
-          Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
-          Images = {[]}
+        <FutureCard
+          left = {false} 
+          Title = "Corporate Partnerships"
+          Description = "We're partnered up with AWS Activate Startup Program, OVH Startup Program, Stripe Startup Partner, Twitch Streaming Partner, and YouTube partner. More partnerships are on the way."
+          Image = {Achieve3}
         />
-        <ProjectCard 
-          Title = "Esports betting and enhanced gameplay"
-          Description = "Nulla occaecat in est tempor amet aliquip adipisicing nostrud est nulla ex deserunt. Adipisicing ad officia eu nulla dolore voluptate et irure qui. Incididunt adipisicing duis tempor ullamco irure velit cillum exercitation culpa eu est eu esse. Amet in nulla officia voluptate culpa esse nisi. Minim fugiat consectetur Lorem laboris aliqua mollit elit do consequat sit est cupidatat. Quis reprehenderit mollit eiusmod commodo fugiat duis ad laboris ut nulla eiusmod culpa aliqua magna."
-          Images = {[]}
-        />
-
-      </div>
+      </Row>
+    </div>
     )
   }
 }
