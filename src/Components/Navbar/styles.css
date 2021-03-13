@@ -3,7 +3,7 @@
 .menuBar {
   padding: 0 20px;
   border-bottom: solid 1px #292929;
-  overflow: auto;
+  overflow: hidden;
   background-color: black;
 }
 .logo {

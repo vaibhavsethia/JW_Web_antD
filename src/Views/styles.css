@@ -1,5 +1,6 @@
 .section {
   background: linear-gradient(rgb(51, 51, 51), #000514);
+  overflow-x: hidden;
 }
 .policy-heading {
   color: #127572;
