@@ -61,7 +61,7 @@ export class Project extends Component {
           />
           <FutureCard 
             left = {true}
-            Title = "Music player that integrates many platforms"
+            Title = "Music player that merges many platforms"
             Description = "A common ground for a single music player where all these apps - soundcloud, spotify, google play music comes under one unmbrella , are integrated and lets user listen to any song automatically."
             Image = {Future2}
           />

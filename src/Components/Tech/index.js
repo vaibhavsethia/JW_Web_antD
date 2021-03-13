@@ -18,13 +18,13 @@ export class Tech extends Component {
           Tagline = {<span>It is a necessity of the fields in which we work to always be open <br />to new things to learn. Here are few of those acquired skills</span>}
         />
         <Row type="flex" align="middle" justify="center">
-          <Col xl={2} lg={2} m={0} sm={0} xs={4}></Col>
-          <Col xl={7} lg={7} m={8} sm={12} xs={20}>
+          <Col xl={2} lg={2} m={0} sm={0} xs={0}></Col>
+          <Col xl={7} lg={7} m={8} sm={12} xs={24}>
             <Fade left>
               <div className="tc">
                 <Card
                   hoverable
-                  style={{ width: 320 }}
+                  style={{ width: '100%' }}
                   cover={<div><i className="tc card-icon fa fa-microchip white"></i></div>}
                   className="card"
                 >
@@ -41,13 +41,13 @@ export class Tech extends Component {
               </div>
             </Fade>
           </Col>
-          <Col xl={0} lg={0} m={0} sm={0} xs={4}></Col>
-          <Col xl={7} lg={7} m={8} sm={12} xs={20}>
+          <Col xl={0} lg={0} m={0} sm={0} xs={0}></Col>
+          <Col xl={7} lg={7} m={8} sm={12} xs={24}>
             <Fade top>
               <div className="tc">
                 <Card
                   hoverable
-                  style={{ width: 320 }}
+                  style={{ width: '100%' }}
                   cover={<div><i className="tc card-icon fa fa-laptop white"></i></div>}
                   className="card"
                 >
@@ -64,13 +64,13 @@ export class Tech extends Component {
               </div>
             </Fade>  
           </Col>
-          <Col xl={0} lg={0} m={0} sm={0} xs={4}></Col>
-          <Col xl={7} lg={7} m={8} sm={12} xs={20}>
+          <Col xl={0} lg={0} m={0} sm={0} xs={0}></Col>
+          <Col xl={7} lg={7} m={8} sm={12} xs={24}>
             <Fade right>
               <div className="tc">
                 <Card
                   hoverable
-                  style={{ width: 320 }}
+                  style={{ width: '100%' }}
                   cover={<div><i className="tc card-icon fa fa-code white"></i></div>}
                   className="card"
                 >
@@ -90,13 +90,13 @@ export class Tech extends Component {
         </Row>
         <Row type="flex" align="middle" justify="center">
           <Col xl={2} lg={2} m={0} sm={0} xs={0}></Col>
-          <Col xl={0} lg={0} m={0} sm={0} xs={4}></Col>
-          <Col xl={7} lg={7} m={8} sm={12} xs={20}>
+          <Col xl={0} lg={0} m={0} sm={0} xs={0}></Col>
+          <Col xl={7} lg={7} m={8} sm={12} xs={24}>
             <Fade left>
               <div className="tc">
                 <Card
                   hoverable
-                  style={{ width: 320 }}
+                  style={{ width: '100%' }}
                   cover={<div><i className="tc card-icon fa fa-code white"></i></div>}
                   className="card"
                 >
@@ -113,13 +113,13 @@ export class Tech extends Component {
               </div>
             </Fade>
           </Col>
-          <Col xl={0} lg={0} m={0} sm={0} xs={4}></Col>
-          <Col xl={7} lg={7} m={8} sm={12} xs={20}>
+          <Col xl={0} lg={0} m={0} sm={0} xs={0}></Col>
+          <Col xl={7} lg={7} m={8} sm={12} xs={24}>
             <Fade bottom>
               <div className="tc">
                 <Card
                   hoverable
-                  style={{ width: 320 }}
+                  style={{ width: '100%' }}
                   cover={<div><i className="tc card-icon fa fa-database white"></i></div>}
                   className="card"
                 >
@@ -136,13 +136,13 @@ export class Tech extends Component {
               </div>
             </Fade>
           </Col>
-          <Col xl={0} lg={0} m={0} sm={0} xs={4}></Col>
-          <Col xl={7} lg={7} m={8} sm={12} xs={20}>
+          <Col xl={0} lg={0} m={0} sm={0} xs={0}></Col>
+          <Col xl={7} lg={7} m={8} sm={12} xs={24}>
             <Fade right>
               <div className="tc">
                 <Card
                   hoverable
-                  style={{ width: 320 }}
+                  style={{ width: '100%' }}
                   cover={<div><i className="tc card-icon fa fa-server white"></i></div>}
                   className="card"
                 >
