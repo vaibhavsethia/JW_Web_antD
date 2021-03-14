@@ -18,7 +18,7 @@ export class Tech extends Component {
           Tagline = {<span>It is a necessity of the fields in which we work to always be open <br />to new things to learn. Here are few of those acquired skills</span>}
         />
         <Row type="flex" align="middle" justify="center">
-          <Col xl={2} lg={2} m={0} sm={0} xs={0}></Col>
+          {/* <Col xl={2} lg={2} m={0} sm={0} xs={0}></Col> */}
           <Col xl={7} lg={7} m={8} sm={12} xs={24}>
             <Fade left>
               <div className="tc">
@@ -89,7 +89,7 @@ export class Tech extends Component {
           </Col>
         </Row>
         <Row type="flex" align="middle" justify="center">
-          <Col xl={2} lg={2} m={0} sm={0} xs={0}></Col>
+          {/* <Col xl={2} lg={2} m={0} sm={0} xs={0}></Col> */}
           <Col xl={0} lg={0} m={0} sm={0} xs={0}></Col>
           <Col xl={7} lg={7} m={8} sm={12} xs={24}>
             <Fade left>
