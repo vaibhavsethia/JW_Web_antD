@@ -11,7 +11,7 @@ export class index extends Component {
         <Fade left>
           <div className="project-title pb2">{this.props.Title}</div>
         </Fade>
-        <Fade right cascade>
+        <Fade right>
           <p className="project-desc pb3">{this.props.Description}</p>
         </Fade>
         {
